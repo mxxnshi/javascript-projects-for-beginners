@@ -1,0 +1,21 @@
+.calculator-content table {
+    border : solid;
+  }
+  
+  .calculator-content table thead tr th {
+    text-align : right;
+  }
+  
+  .calculator-content table thead tr:first-child {
+    color : #505050;
+    font-size: small;
+  }
+  
+  .calculator-content table button {
+    width : 100%;
+  }
+  
+  .calculator-content table button {
+    width : 100%;
+    border-radius : 30px
+  }
