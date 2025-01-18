@@ -105,3 +105,11 @@ console.log(fullDetail) // { name : "Bob", age : 18}
  * Redirect to new url after delay
  */
 setTimeout(()=>location.href = 'https://jsmastery.pro',5000)
+
+/**
+ * Sort 
+ */
+const colors = ['red', 'green', 'blue'];
+
+const newColors = colors.sort((a, b) => a.length - b.length).reverse(); 
+console.log(newColors); // ['green, 'blue', 'red']
